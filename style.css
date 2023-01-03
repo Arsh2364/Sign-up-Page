@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital@1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lora' 'Bebas Neue', cursive;
+      
+}
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+}
+.inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 30px 50px;
+    /* background-color: #ffffff09; */
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+
+}
+.signup-header h1 {
+    font-size: 3.3rem;
+    color: #212121;
+}
+.signup-header p {
+    font-size: 0.8rem;
+    color: #555;
+
+
+}
+.signup-body {
+    margin: 20px 0;
+}
+.signup-body p {
+    margin: 10px 0;
+    color: #212121;
+}
+.signup-body label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+.signup-body input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 18px;
+   font-size: 1rem;
+   margin: 4px;
+
+
+}
+.signup-body input[type="submit"] {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+.signup-body input[type="submit"]:hover {
+    font-size: 1.3rem;
+    border-radius: 45px;
+    color: black;
+}
+.signup-footer p {
+    color: #555;
+    text-align: center;
+}
+.signup-footer p a {
+    color: #3498db;
+}
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff33, #ffffff);
+    position: absolute;
+}
+.c1 {
+    top: 100px;
+    left:40px;
+}
+.c2 {
+    bottom: 200px;
+    right: 50px;
+}
